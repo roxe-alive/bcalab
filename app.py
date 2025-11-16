@@ -2,7 +2,7 @@ from flask import Flask, send_file
 
 app =  Flask(__name__)
 
-pdf_link = "IMG-20250608-WA0002.jpg"
+pdf_link = "prgrmsjava.pdf"
 
 @app.route("/")
 def home():
